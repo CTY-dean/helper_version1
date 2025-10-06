@@ -1,0 +1,32 @@
+{
+    "name": "helper1.0",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "servo": "*",
+        "smarttools": "github:51bit/smarttools#v0.3.4"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "stable8.0",
+        "tag": "v8.0.16",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/70751e3ce10c755c0c803f5669b12b52539ce5b0",
+        "target": "8.0.16",
+        "pxt": "12.0.16",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
